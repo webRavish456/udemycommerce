@@ -1,0 +1,25 @@
+.authentication-container 
+{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  grid-column-gap: 60px;
+}
+
+@media only screen  and (max-width:768px)
+{
+     .authentication-container {
+        display: grid;
+         grid-row-gap: 50px;
+         font-size: 18px;
+     }
+}
+
+@media only screen  and (max-width:480px)
+{
+     .authentication-container {
+      
+        font-size: 15px;
+        text-align: center;
+     }
+}

@@ -1,0 +1,22 @@
+.directory-container
+{
+     width:100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+@media only screen and (max-width:769px)
+{
+     .directory-container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          justify-content: center;
+     }
+}
+@media only screen and (max-width:481px)
+{
+     .directory-container {
+          display: grid;
+          grid-template-columns: 1fr;
+     }
+}

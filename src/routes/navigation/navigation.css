@@ -1,0 +1,40 @@
+.mobile-menu-link{
+    display: none;
+}
+
+@media only screen and (max-width:500px)
+{
+    .mobile-menu-link
+{
+    
+    display:flex;
+    align-items:flex-start;
+    justify-content:start;
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom:30px;
+    border:1px solid black;
+    box-sizing:border-box;
+    width:160px;
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(230, 228, 234);
+    color:rgb(39, 23, 23);
+    border-radius: 3px;
+    height:140px;
+    z-index: 99;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+ul{
+     display: flex;
+     flex-direction: column;
+      align-items: center;
+}
+}
+.menu-link {
+    display: none;
+}
+

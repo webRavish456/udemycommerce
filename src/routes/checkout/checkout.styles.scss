@@ -1,0 +1,97 @@
+.checkout-container {
+  width: 55%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px auto 0;
+
+  .checkout-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+  
+    .header-block {
+      text-transform: capitalize;
+      width: 23%;
+    
+      &:last-child {
+        width: 8%;
+      
+    }
+  }
+  }
+}
+  .total {
+    margin-top: 30px;
+    margin-left: auto;
+    font-size: 36px;
+  } 
+
+ .total .currency{
+     font-size: 37px;
+     position: relative;
+     top:7px;
+  }
+  
+@media only screen and (max-width:860px)
+{
+    .checkout-container{
+      width:70%;
+    }
+}
+@media only screen and (max-width:769px)
+{
+    .checkout-container{
+      width:80%;
+    }
+    .header-block {
+      font-size: 14px;
+    }
+    .total {
+      font-size: 32px;
+    }
+    .total .currency{
+      font-size: 33px;
+      position: relative;
+     top:6px;
+   }
+}
+@media only screen and (max-width:519px)
+{
+    .checkout-container{
+      width:100%;
+   
+    }
+    .checkout-header {
+      display: flex;
+      justify-content: space-between
+    }
+    .header-block {
+      font-size: 13px;
+    }
+    .total {
+      font-size: 29px;
+    }
+}
+@media only screen and (max-width:365px)
+{
+    .checkout-container{
+      width:102%;
+    }
+    
+    .header-block {
+      font-size: 12px;
+
+    }
+    .total {
+      font-size: 25px;
+    }
+    .total .currency{
+      font-size: 26px;
+      position: relative;
+     top:5px;
+   }
+}
