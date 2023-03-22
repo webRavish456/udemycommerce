@@ -29,7 +29,7 @@ const PaymentForm = ()=>
   
         setIsProcessingPayment(true);
 
-       const response = await fetch('https://main--boisterous-faun-a52394.netlify.app/.netlify/functions/create-payment-intent', {
+       const response = await fetch('https://boisterous-faun-a52394.netlify.app/.netlify/functions/create-payment-intent', {
         method: 'post',
         headers : {
             'Content-Type' : 'application/json'
